@@ -157,8 +157,11 @@ nav ul li {
     margin-left: 20px;
 }
 
-.btn-secondary a:hover {
-    background-color: black;
+.square-1 button:hover, .square-4 button:hover, .square-5 button:hover {
+    border: 1px solid black;
+    color:black;
+    background-color: white;
+    opacity: .75;
 
 }
 
