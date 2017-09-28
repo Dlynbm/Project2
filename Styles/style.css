@@ -6,30 +6,31 @@ body {
 }
 
 
-/*.headerlogo {
+.headerlogo {
     float:left;
     margin-right:10px;
     height: 60px;
     width: 60px;
-    margin-bottom: 50px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    align-items: center;
 }
-
-.headerlogo > img {
-    height: 60px;
-    width: 60px;
-    margin-bottom: 50px;
-}*/
 
 .headername {
-    font-size: 22px;
+    font-size: 30px;
     font-family: "Lato sans-serif";
     text-shadow: 5px 5px 5px #DBEFE7;
-    color: #A69B8C;
-    padding: 15px;
-    margin: 0 30px;
+    color:black;
+    /*color: #A69B8C;*/
+    padding: 3px;
     font-weight: bold;
+    text-align: center;
 }
 
+.headername a {
+    color: black;
+    text-decoration: none;
+}
 .container-fluid{
     background: -webkit-linear-gradient(left, #D6CCBC, #A69B8C); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(right, #a7c3ef, #689df2); /* For Opera 11.1 to 12.0 */
@@ -145,8 +146,12 @@ body {
     flex:1;
     background-color: #B2C8C6;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 50px;
+}
+
+.square-2 h3, .square-3 h3, .square-6 h3{
+    margin-top: 75px;
 }
 
 .square-3 {
