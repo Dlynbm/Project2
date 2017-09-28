@@ -1,36 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>USDC Training</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <meta charset="utf-8">
+
+
     <script src="https://use.fontawesome.com/b6758e6f71.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="Styles/style.css">
 
-
+    <title>USDC Training</title>
 </head>
+
 <body>
 
 <header class="header">
-    <div>
-        <a class ="headerlogo" href="index.html">
-            <img src="Images/USDC_Square.jpg" width="100"/>
-        </a>
         <span class="headername">Utah State Developmental Center</span>
-        <input type="search" class="searchbox" placeholder="Search for courses"/>
     </div>
-
-    <nav class="backgroundgradient">
-        <ul>
-            <li><a class="navlink" href="contactUs.html">Contact Us</a></li>
-            <li><a class="navlink" href="neo.html">New Employees</a></li>
-            <li><a class="navlink" href="Recert.html">Recertification</a></li>
-            <li><a class="navlink" href="otherTraining.html">Other Training/DHS</a></li>
-            <li><a class="navlink" href="index.html">Home</a></li>
-
-        </ul>
-    </nav>
-
 </header>
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">Other Training/DHS <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Security Awareness</a></li>
+                        <li><a href="#">Defensive Driving</a></li>
+                        <li><a href="#">Large Passenger Van</a></li>
+                        <li><a href="#">Workplace Harassment and Abusive Conduct Prevention</a></li>
+                        <li><a href="#">Signs of Illness</a></li>
+                    </ul>
+                </li>
+
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Recert <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Back Injury</a></li>
+                        <li><a href="#">Blood-borne Pathogens</a></li>
+                        <li><a href="#">Individual Rights</a></li>
+                        <li><a href="#">Life Safety</a></li>
+                        <li><a href="#">Signs of Illness</a></li>
+
+                    </ul>
+                </li>
+
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">New Employees <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Back Injury</a></li>
+                        <li><a href="#">Blood-borne Pathogens</a></li>
+                        <li><a href="#">Counseling</a></li>
+                        <li><a href="#">Dental</a></li>
+                        <li><a href="#">Dress Code</a></li>
+                        <li><a href="#">Individual Rights</a></li>
+                        <li><a href="#">Life Safety</a></li>
+                        <li><a href="#">Psychology</a></li>
+                        <li><a href="#">Safety Data Sheets</a></li>
+                        <li><a href="#">Signs of Illness</a></li>
+
+                    </ul>
+                </li>
+            </ul>
+            <form class="navbar-form navbar-left">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search for courses">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+
 <div class="banner">
     <div class="banner-text">
         <h1>Welcome USDC Employees</h1>
@@ -50,10 +112,9 @@
 
 
 <div class="homecontainer-1">
-    <div class="square-1">
-        <a href="Recert.html">
-            <button type="button" class="btn btn-secondary">VIEW ALL</button>
-        </a>
+    <div class="square-1"><a href="Recert.html">
+        <button type="button" class="btn btn-secondary">VIEW ALL</button>
+    </a>
     </div>
 
     <div class="square-2">
@@ -71,14 +132,14 @@
 
     <div class="square-4"><a href="otherTraining.html">
         <button type="button" class="btn btn-secondary">VIEW ALL</button>
-        </a>
+    </a>
     </div>
 </div>
 
 <div class="homecontainer-3">
     <div class="square-5"><a href="neo.html">
         <button type="button" class="btn btn-secondary">VIEW ALL</button>
-        </a>
+    </a>
     </div>
 
     <div class="square-6">
@@ -90,14 +151,20 @@
 
 
 
-<footer>
-    <div class="fbcontainer">
-        <div class="fa fa-facebook fa-3x" aria-hidden="true"></i>
-        </div
-        <div class="twitter"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
-        </div>
-        <h6>Utah State Developmental Center/895 N 900 E American Fork, Utah 84003/801-763-4000</h6>
+<div class="socialmedia">
+    <div class="social">
+        <a href="https://www.facebook.com"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i>
+        </a>
     </div>
+    <div class="social">
+        <a href="https://www.twitter.com">
+            <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
+        </a>
+    </div>
+</div>
+<footer>
+    <h6>Utah State Developmental Center/895 N 900 E American Fork, Utah 84003/801-763-4000</h6>
+
 </footer>
 </body>
 </html>
