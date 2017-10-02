@@ -49,6 +49,7 @@ body {
   background: -moz-linear-gradient(right, #a7c3ef, #689df2);
   background: linear-gradient(to right, #D6CCBC, #A69B8C);
 }
+
 #bs-example-navbar-collapse-1 {
   height: 35px;
   margin-right: 2px;
@@ -57,35 +58,40 @@ body {
   text-decoration: none;
 }
 .banner {
-  background-image: url("../Images/elearning.png");
+  background-image: url("../Images/laptop.png");
   position: relative;
   margin-top: 10px;
   width: 1000px;
-  height: 700px;
+  height: 600px;
 }
 .banner-text {
   h1 {
-    font-size: 75px;
-    position: absolute;
-    width: 100%;
+    margin:auto;
+    font-size: 65px;
+    position: relative;
+    width: 90%;
+    max-width: 700px;
     color: @color_1;
-    margin-top: 350px;
+    margin-top: 15px;
     padding: 20px;
     text-align: center;
     background-color: @background_color_1;
     opacity: 0.75;
   }
 }
+
+
 .welcometext {
   margin: auto;
-  margin-top: -75px;
+  margin-top: -175px;
   max-width: 675px;
-  background-color: @background_color_2;
+  background-color: @background_color_5;
+  opacity: 0.75;
   position: relative;
+  align-content: center;
   h2 {
     color: @color_1;
     text-align: center;
-    opacity: 0.75;
     font-size: 20px;
     font-weight: normal;
     letter-spacing: 2px;
@@ -261,9 +267,7 @@ footer {
 .social {
   padding-top: 15px;
 }
-Other {
-  Pages {
-    CSS {
+/*Other Pages CSS*/
       .mainImage {
         position: relative;
         width: 100%;
@@ -284,6 +288,7 @@ Other {
   text-align: center;
   width: 25%;
   background-color: @background_color_8;
+
   hover {
     background-color: @background_color_2;
   }
