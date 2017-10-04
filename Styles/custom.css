@@ -194,7 +194,7 @@ footer {
     padding-top: 15px;
 }
 
-Other Pages CSS
+/*Other Pages CSS*/
 
 .mainImage {
     position: relative;
@@ -233,6 +233,10 @@ Other Pages CSS
     position:absolute;
     bottom:0;
     width:100%;
+}
+
+.section-1 p {
+    padding-top: 55px;
 }
 
 .section-1 a {
@@ -314,6 +318,11 @@ Other Pages CSS
 .container-2 a{
     text-decoration: none;
     color: black;
+}
+
+.container-2 p{
+    padding-top: 55px;
+
 }
 
 .box-6 {
