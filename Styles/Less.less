@@ -1,0 +1,446 @@
+@color_1: black;
+@color_2: white;
+@font_family_1: Verdana, Arial;
+@font_family_2: "Lato sans-serif";
+@background_color_1: #B2C8C6;
+@background_color_2: #cccccc;
+@background_color_3: black;
+@background_color_4: white;
+@background_color_5: #A69B8C;
+@background_color_6: #DBEFE7;
+@background_color_7: #D6CCBC;
+@background_color_8: #F2F3F2;
+
+
+
+body {
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: @font_family_1;
+}
+.headerlogo {
+  float: left;
+  margin-right: 10px;
+  height: 60px;
+  width: 60px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+.headername {
+  font-size: 30px;
+  font-family: @font_family_2;
+  text-shadow: 5px 5px 5px #DBEFE7;
+  color: @color_1;
+  padding: 3px;
+  font-weight: bold;
+  text-align: center;
+  a {
+    color: @color_1;
+    text-decoration: none;
+  }
+}
+.container-fluid {
+  background: linear-gradient(to right, #D6CCBC, #A69B8C);
+}
+#bs-example-navbar-collapse-1 {
+  height: 35px;
+  margin-right: 2px;
+  font-size: 18px;
+  padding: 12px;
+  text-decoration: none;
+  width: 100%;
+}
+.banner {
+  background-image: url("../Images/laptop.png");
+  position: relative;
+  margin-top: 10px;
+  width: 1000px;
+  height: 700px;
+  background-repeat: no-repeat;
+}
+.banner-text {
+
+  h1 {
+    font-size: 75px;
+    position: absolute;
+    width: 75%;
+    color: @color_1;
+    padding: 20px;
+    text-align: center;
+    background-color: @background_color_1;
+    opacity: 0.75;
+  }
+}
+.welcometext {
+  margin: auto;
+  margin-top: -200px;
+  max-width: 675px;
+  background-color: @background_color_7;
+  position: relative;
+  opacity: 0.80;
+  h2 {
+    color: @color_1;
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    padding: 10px;
+    line-height: 1.5;
+  }
+}
+.trainingtext {
+  color: @color_1;
+  text-align: center;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 40px;
+
+  h4 {
+    color: @color_1;
+    text-align: center;
+    font-size: 15px;
+    line-height: .5;
+    padding-bottom: 10px;
+  }
+}
+.homecontainer-1 {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+  div {
+    border: 3px #ccc solid;
+    padding: 10px;
+    margin-right: 4px;
+    align-items: center;
+    height: 300px;
+  }
+  a{
+    text-decoration: none;
+    color:@color_1;
+  }
+}
+
+
+.homecontainer-2 {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+  div {
+    border: 3px #ccc solid;
+    padding: 10px;
+    margin-right: 4px;
+    align-items: center;
+    height: 300px;
+  }
+  a {
+    text-decoration: none;
+     color: @color_1;
+  }
+}
+.homecontainer-3 {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+  div {
+    border: 3px #ccc solid;
+    padding: 10px;
+    margin-right: 4px;
+    align-items: center;
+    height: 300px;
+  }
+  a {
+    text-decoration: none;
+    color: @color_1;
+  }
+
+}
+.square-1 {
+  flex: 1;
+  background-image: url("../Images/elearning4.png");
+  text-align: center;
+  background-size: 100%;
+  button {
+    &:hover {
+      border: 1px solid black;
+      color: @color_1;
+      background-color: @background_color_4;
+      opacity: .75;
+      cursor: pointer;
+    }
+  }
+}
+.square-4 {
+  flex: 1;
+  background-image: url("../Images/elearning4.png");
+  text-align: center;
+  background-size: 100%;
+  background-image: url("../Images/elearning3.png");
+  button {
+    &:hover {
+      border: 1px solid black;
+      color: @color_1;
+      background-color: @background_color_4;
+      opacity: .75;
+      cursor: pointer;
+    }
+  }
+}
+.square-5 {
+  flex: 1;
+  background-image: url("../Images/elearning4.png");
+  text-align: center;
+  background-size: 100%;
+  background-image: url("../Images/elearning2.png");
+  button {
+    &:hover {
+      border: 1px solid black;
+      color: @color_1;
+      background-color: @background_color_4;
+      opacity: .75;
+      cursor: pointer;
+    }
+  }
+}
+.btn-secondary {
+  font-size: 25px;
+  border: 1px solid white;
+  color: @color_2;
+  background-color: @background_color_3;
+  opacity: .75;
+  padding: 15px;
+  margin-top: 125px;
+  width: 200px;
+  margin-left: 20px;
+}
+.square-2 {
+  flex: 1;
+  background-color: @background_color_1;
+  text-align: center;
+  font-size: 20px;
+  line-height: 50px;
+  h3 {
+    margin-top: 75px;
+  }
+  &:hover {
+    background-color: @background_color_6;
+    opacity: 0.70;
+  }
+}
+.square-3 {
+  flex: 1;
+  background-color: @background_color_1;
+  text-align: center;
+  font-size: 20px;
+  line-height: 50px;
+  background-color: @background_color_5;
+  h3 {
+    margin-top: 75px;
+  }
+  &:hover {
+    background-color: @background_color_7;
+    opacity: 0.70;
+  }
+}
+.square-6 {
+  flex: 1;
+  background-color: @background_color_1;
+  text-align: center;
+  font-size: 20px;
+  line-height: 50px;
+  background-color: @background_color_6;
+  h3 {
+    margin-top: 75px;
+  }
+  &:hover {
+    background-color: @background_color_6;
+    opacity: 0.70;
+  }
+}
+footer {
+  display: flex;
+  justify-content: center;
+  color: @color_1;
+  background-color: @background_color_7;
+  padding: 5px;
+}
+.socialmedia {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  background-color: @background_color_7;
+  a {
+    text-decoration: none;
+    color: @color_1;
+    padding: 15px;
+  }
+}
+.social {
+  padding-top: 15px;
+}
+
+/*Other Pages CSS*/
+
+
+.mainImage {
+  position: relative;
+  width: 100%;
+}
+.toptext {
+  color: @color_1;
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.container-1 {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  margin-top: 10px;
+
+  a {
+    text-decoration: none;
+    color: @color_1;
+  }
+  p {
+    padding-top: 55px;
+  }
+}
+
+.box-1 {
+  /*position: relative;*/
+  border: 3px #ccc solid;
+  margin-right: 5px;
+  text-align: center;
+  width: 25%;
+  background-color: @background_color_6;
+  &:hover {
+    background-color: @background_color_6;
+    opacity: 0.70;
+  }
+}
+
+.box-2 {
+  position: relative;
+  border: 3px #ccc solid;
+  margin-right: 5px;
+  text-align: center;
+  width: 25%;
+  background-color: @background_color_8;
+  &:hover {
+    background-color: @background_color_2;
+    opacity: 0.75;
+  }
+}
+.box-3 {
+  position: relative;
+  border: 3px #ccc solid;
+  margin-right: 5px;
+  text-align: center;
+  width: 25%;
+  background-color: @background_color_5;
+  &:hover {
+    background-color: @background_color_5;
+    opacity: 0.75;
+  }
+  div {
+    color: @color_1;
+    text-decoration: none;
+  }
+}
+.box-4 {
+  position: relative;
+  border: 3px #ccc solid;
+  margin-right: 5px;
+  text-align: center;
+  width: 25%;
+  background-color: @background_color_1;
+  &:hover {
+    background-color: @background_color_1;
+    opacity: 0.75;
+  }
+}
+.box-5 {
+  position: relative;
+  border: 3px #ccc solid;
+  margin-right: 5px;
+  text-align: center;
+  width: 25%;
+  background-color: @background_color_7;
+  &:hover {
+    background-color: @background_color_7;
+    opacity: 0.75;
+  }
+}
+.section1 {
+  /*position: absolute;*/
+  width: 100%;
+  /*bottom:0;*/
+  justify-content: center;
+  align-content: center;
+}
+
+.container-2 {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  margin-top: 10px;
+  div {
+    border: 3px #ccc solid;
+    padding: 10px;
+    margin-right: 4px;
+  }
+  a {
+    text-decoration: none;
+    color: @color_1;
+  }
+  p {
+    padding-top: 55px;
+  }
+}
+.box-6 {
+  flex: 1;
+  background-color: @background_color_5;
+  text-align: center;
+  &:hover {
+    background-color: @background_color_5;
+    opacity: 0.75;
+  }
+}
+.box-7 {
+  flex: 1;
+  background-color: @background_color_1;
+  text-align: center;
+  &:hover {
+    background-color: @background_color_1;
+    opacity: 0.75;
+  }
+}
+.box-8 {
+  flex: 1;
+  background-color: @background_color_8;
+  text-align: center;
+  &:hover {
+    background-color: @background_color_2;
+    opacity: 0.75;
+  }
+}
+.box-9 {
+  flex: 1;
+  background-color: @background_color_7;
+  text-align: center;
+  &:hover {
+    background-color: @background_color_7;
+    opacity: 0.75;
+  }
+}
+.box-10 {
+  flex: 1;
+  background-color: @background_color_6;
+  text-align: center;
+  &:hover {
+    background-color: @background_color_6;
+    opacity: 0.75;
+  }
+}
