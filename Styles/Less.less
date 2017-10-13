@@ -14,7 +14,7 @@
 
 
 body {
-  width: 1000px;
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
   font-family: @font_family_1;
@@ -53,19 +53,24 @@ body {
   width: 100%;
 }
 .banner {
-  background-image: url("../Images/laptop.png");
+  img {
+  display:block;
   position: relative;
-  margin-top: 10px;
-  width: 1000px;
+  margin:auto;
+  width: 100%;
   height: 700px;
   background-repeat: no-repeat;
+}
 }
 .banner-text {
 
   h1 {
-    font-size: 75px;
+    margin-top: -675px;
+    margin-left: 20px;
+    font-size: 60px;
+    border: 3px #ccc solid;
     position: absolute;
-    width: 75%;
+    width: 50%;
     color: @color_1;
     padding: 20px;
     text-align: center;
@@ -91,11 +96,12 @@ body {
   }
 }
 .trainingtext {
+  margin-top: 30px;
   color: @color_1;
   text-align: center;
   font-size: 15px;
   text-transform: uppercase;
-  padding: 40px;
+  padding: 30px;
 
   h4 {
     color: @color_1;
@@ -108,7 +114,7 @@ body {
 .homecontainer-1 {
   display: flex;
   width: 100%;
-  margin-top: 10px;
+  /*margin-top: 0px;*/
   div {
     border: 3px #ccc solid;
     padding: 10px;
@@ -284,8 +290,16 @@ footer {
 
 
 .mainImage {
-  position: relative;
-  width: 100%;
+  img {
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    /*position: relative;
+    width: 100%;*/
+  }
 }
 .toptext {
   color: @color_1;
@@ -305,6 +319,10 @@ footer {
   }
   p {
     padding-top: 55px;
+  }
+
+  h4 {
+    margin-top: 5px;
   }
 }
 
