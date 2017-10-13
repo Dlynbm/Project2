@@ -136,7 +136,7 @@ body {
 }
 .square-1 {
   flex: 1;
-  background-image: url("../Images/elearning4.png");
+  background-image: url("../Images/boyclassroom.png");
   text-align: center;
   background-size: 100%;
 }
@@ -149,10 +149,9 @@ body {
 }
 .square-4 {
   flex: 1;
-  background-image: url("../Images/elearning4.png");
   text-align: center;
   background-size: 100%;
-  background-image: url("../Images/elearning3.png");
+  background-image: url("../Images/girl.png");
 }
 .square-4 button:hover {
   border: 1px solid black;
@@ -163,10 +162,9 @@ body {
 }
 .square-5 {
   flex: 1;
-  background-image: url("../Images/elearning4.png");
   text-align: center;
   background-size: 100%;
-  background-image: url("../Images/elearning2.png");
+  background-image: url("../Images/girlclassroom.png");
 }
 .square-5 button:hover {
   border: 1px solid black;

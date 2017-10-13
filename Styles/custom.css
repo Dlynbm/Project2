@@ -52,7 +52,7 @@ body {
 }*/
 
 .banner {
-    background-image: url("../Images/elearning.png");
+    background-image: url("../Images/girlgreen.png");
     position: relative;
     margin-top: 10px;
     width: 1000px;
@@ -116,7 +116,7 @@ body {
 
 .square-1, .square-4, .square-5 {
     flex:1;
-    background-image: url("../Images/elearning4.png");
+    background-image: url("../Images/girl.png");
     text-align: center;
     background-size: 100%;
 }
@@ -159,11 +159,11 @@ body {
 }
 
 .square-4  {
-    background-image: url("../Images/elearning3.png");
+    background-image: url("../Images/boyclassroom.png");
 }
 
 .square-5 {
-    background-image: url("../Images/elearning2.png");
+    background-image: url("../Images/girlclassroom.png");
 }
 
 .square-6 {
