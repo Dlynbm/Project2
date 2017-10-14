@@ -283,6 +283,10 @@ footer {
 .container-1 p {
   margin-top: 50px;
 }
+.section-2 h4 {
+  margin-top: 35px;
+  font-weight: bold;
+}
 .box-1 {
   /*position: relative;*/
   border: 3px #ccc solid;
